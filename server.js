@@ -27,7 +27,6 @@ app.post('/', (req, res) => {
         number: req.body.num,
         email: req.body.email,
         password: req.body.pass,
-        text: req.body.text
     })
     newPhis.save();
     res.redirect('/about');
